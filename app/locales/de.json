@@ -1,0 +1,11 @@
+{
+  "welcome": "Willkommen in der Rezept-App!",
+  "home_title": "Rezeptliste",
+  "no_recipes": "Keine Rezepte verfügbar.",
+  "settings": "Einstellungen",
+  "language": "Sprache",
+  "ingredients": "Zutaten",
+  "instructions": "Anweisungen",
+  "timer": "Timer",
+  "read_aloud": "Vorlesen"
+}

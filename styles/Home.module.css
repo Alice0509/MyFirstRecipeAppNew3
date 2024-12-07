@@ -1,0 +1,156 @@
+/* styles/Home.module.css */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .controlsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .searchContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    margin-right: 8px;
+    color: #666;
+  }
+  
+  .searchInput {
+    padding: 6px 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 250px;
+  }
+  
+  .filterContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .filterContainer label {
+    margin-bottom: 4px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .categorySelect {
+    padding: 6px 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .menuGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .noResults {
+    text-align: center;
+    color: #888888;
+    font-size: 18px;
+  }
+  
+  .error {
+    text-align: center;
+    color: red;
+    font-size: 18px;
+  }
+  
+  .h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Recipe Card 스타일 */
+  .recipeCard {
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .recipeCard:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recipeImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* 페이지네이션 스타일 */
+  .pagination {
+    display: flex;
+    justify-content: center; /* 중앙 정렬 */
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .pageButton,
+  .activePageButton {
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    margin: 0 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .pageButton:hover {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  .activePageButton {
+    color: white;
+    background-color: #0070f3;
+    border-radius: 5px;
+  }
+  
+  .pageButtonIcon {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #0070f3;
+  }
+  
+  .pageButtonIcon:disabled {
+    color: #aaa;
+    cursor: not-allowed;
+  }
+  
+  @media (max-width: 768px) {
+    .controlsContainer {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .filterContainer {
+      align-items: flex-start;
+      margin-top: 10px;
+    }
+  
+    .searchInput,
+    .categorySelect {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,11 @@
+{
+  "welcome": "Welcome to the Recipe App!",
+  "home_title": "Recipe List",
+  "no_recipes": "No recipes available.",
+  "settings": "Settings",
+  "language": "Language",
+  "ingredients": "Ingredients",
+  "instructions": "Instructions",
+  "timer": "Timer",
+  "read_aloud": "Read Aloud"
+}
